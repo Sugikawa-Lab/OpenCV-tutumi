@@ -44,7 +44,9 @@ cv2.waitKey(0)は次にキーを入力するまでの停止することをあら
 <img src="実行1/test1.png/" width="300">
 </p>
 <br>上記の画像を**グレースケール**で表示するには以下のコードで実行できる．
+
 ```python
+
 import numpy as np
 import cv2
 img0 = cv2.imread('test1.png',0)
